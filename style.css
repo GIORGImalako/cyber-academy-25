@@ -1,0 +1,150 @@
+:root {
+    --title-font: "Poppins", sans-serif;
+    --font: "Poppins", sans-serif;
+    --text-color: #020202;
+    --bottom-color: #2590F4;
+    --hover-color: #1b77ce;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  header nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  header nav ul {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+  }
+  
+  header nav ul li {
+    list-style: none;
+  }
+  
+  .nav-btn {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  
+  header nav ul li a:hover {
+    color: var(--hover-color);
+    cursor: pointer;
+  }
+  
+  main {
+    width: 100%;
+    height: auto;
+  }
+  
+  .sect_1 {
+    width: 100%;
+    height: 760px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(./img/pexels-photo-218863.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .sect_1_div {
+    border: 20px solid var(--bottom-color);
+    width: 60%;
+    height: 65%;
+    background-color: #fff2;
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .sect_1_div h1,
+  .sect_1_div p,
+  .sect_1_div button {
+    color: #fff;
+  }
+  
+  .sect_1_div h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: var(--title-font);
+  }
+  
+  .sect_1_div p {
+    line-height: 52px;
+    font-family: var(--font);
+    font-size: 1.2rem;
+  }
+  
+  .sect_1_div button {
+    background-color: var(--bottom-color);
+    width: 140px;
+    height: 45px;
+    border: none;
+    margin-top: 20px;
+  }
+  
+  .sect_1_div button:hover {
+    background-color: var(--hover-color);
+  }
+  
+  /* section 2 */
+  .sect_2 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .sect_2_wrapper {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    gap: 50px;
+  }
+  
+  .about_desc {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .about_topics {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .sect_2_icon_text {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .sect_2_icon {
+    width: 100px;
+    height: 100px;
+    background-color: var(--bottom-color);
+    border-radius: 100%;
+  }
